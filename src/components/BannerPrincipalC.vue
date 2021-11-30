@@ -19,17 +19,7 @@
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         .contenedor-imagenes
           img(:src="globalData.imagenBannerPrincipal")
-          //- .imagen_flotante_banner: img(src="@/assets/curso/flotante-1-1.svg")
-          //- .imagen_flotante_2: img(src="@/assets/curso/flotante-2.svg")
-          //- .imagen_flotante_1: img(src="@/assets/curso/flotante-1.svg")            
-          //- .imagen_flotante_3: img(src="@/assets/curso/flotante-3.svg")
-          //- .imagen_flotante_4: img(src="@/assets/curso/flotante-4.svg")
-          //- .imagen_flotante_5: img(src="@/assets/curso/flotante-5.svg") 
-          //- .imagen_flotante_6: img(src="@/assets/curso/flotante-6.svg")
-          //- .imagen_flotante_7: img(src="@/assets/curso/flotante-7.svg")
-          //- .imagen_flotante_8: img(src="@/assets/curso/flotante-8.svg")
-          //- .imagen_flotante_10: img(src="@/assets/curso/flotante-10.svg")            
-          //- .imagen_flotante_9: img(src="@/assets/curso/flotante-9.svg")
+          .imagen_flotante_banner: img(src="@/assets/curso/flotante.svg")
           
 </template>
 
@@ -119,77 +109,17 @@ export default {
   &_banner
     animation: float1 5s ease-in-out infinite
     position: absolute
-    top: -5%
-    left: -20%
-    width: 80%
-  &_1
-    animation: float3 15s ease-in-out infinite
-    position: absolute
-    top: 40%
-    left: 16%
-    width: 30px
-  &_2
-    animation: float2 6s ease-in-out infinite
-    position: absolute
-    top: 32%
-    left: 15%
-    width: 80px
-  &_3
-    animation: float3 10s ease-in-out infinite
-    position: absolute
-    top: 31%
-    left: 12%
-    width: 30px
-  &_4
-    animation: float3 9s ease-in-out infinite
-    position: absolute
-    top: 14%
-    left: 19%
-    width: 30px
-  &_5
-    animation: float4 9s ease-in-out infinite
-    position: absolute
-    top: 16%
-    left: 20%
-    width: 80px
-  &_6
-    animation: float3 10s ease-in-out infinite
-    position: absolute
-    top: 6%
-    left: 33%
-    width: 30px
-  &_7
-    animation: float2 5s ease-in-out infinite
-    position: absolute
-    top: 15%
-    left: 28%
-    width: 80px
-  &_8
-    animation: float3 8s ease-in-out infinite
-    position: absolute
-    top: 6%
-    left: 46%
-    width: 30px
-  &_9
-    animation: float3 10s ease-in-out infinite
-    position: absolute
-    top: 13%
-    left: 58%
-    width: 30px
-  &_10
-    animation: float4 7s ease-in-out infinite
-    position: absolute
-    top: 15%
-    left: 50%
-    width: 80px
+    top: 0%
+    left: 0%
+    width: 100%
 
 @keyframes float1
 	0%
-    scale: (1.05)
+    scale: (1.04)
 	50%
 		scale: (1.0)
 	100%
-		scale: (1.05)
+		scale: (1.04)
 
 @keyframes float2
   0%
@@ -198,36 +128,4 @@ export default {
     opacity: 1
   100%
     opacity: 0
-
-@keyframes float3
-  0%
-    transform: translate(1px, 1px) rotate(-1deg)
-  10%
-    transform: translate(-1px, -2px) rotate(0deg)
-  20%
-    transform: translate(-3px, 0px) rotate(1deg)
-  30%
-    transform: translate(3px, 0px) rotate(-1deg)
-  40%
-    transform: translate(1px, -2px) rotate(0deg)
-  50%
-    transform: translate(-1px, 1px) rotate(-1deg)
-  60%
-    transform: translate(1px, -2px) rotate(0deg)
-  70%
-    transform: translate(-3px, 0px) rotate(-1deg)
-  80%
-    transform: translate(3px, 0px) rotate(0deg)
-  90%
-    transform: translate(1px, -2px) rotate(-1deg)
-  100%
-    transform: translate(1px, 1px) rotate(0deg)
-
-@keyframes float4
-  0%
-    opacity: 1
-  50%
-    opacity: 0
-  100%
-    opacity: 1
 </style>

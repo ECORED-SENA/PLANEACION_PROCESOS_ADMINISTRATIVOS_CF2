@@ -1,3 +1,16 @@
+.banner-principal__row .banner-principal__img
+  animation-name: yoyo
+  animation-duration: 10s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+@keyframes yoyo
+  0%
+    transform: translatey(0px)    
+  50%
+    transform: translatey(-10px)
+  100%
+    transform: translatey(0px)
 .img-a 
   display: block
   margin: auto
@@ -209,4 +222,11 @@
 .w
   width: 30% !important 
 .table-br-top
-  border-top: 5px solid #43EFD4     
+  border-top: 5px solid #43EFD4 
+  background-color: #D9F5F1 !important   
+
+.tarjeta.color-acento-botones--borde 
+  background-color: #E2F6FF
+  border: solid 4px #E2F6FF 
+.tabs-a.color-primario .tabs-a__tab:hover, .tabs-a.color-primario .tabs-a__tab__selected
+  color: white !important

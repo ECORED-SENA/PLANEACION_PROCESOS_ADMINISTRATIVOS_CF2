@@ -11,26 +11,26 @@
     p(data-aos="fade-down-right") Según Gestionpro (2021), los aspectos que se deben tener en cuenta para la elaboración de un informe son los siguientes: 
 
     .row.justify-content-center.align-items-strecth.mt-5      
-      .col-lg-4.bg-card-img.px-4.py-5.br-rad.text-white
+      .col-lg-4.bg-card-img.px-4.py-5.br-rad.text-white(data-aos="flip-down")
         h5.pt-5.text-center Describe qué quiere obtener de la investigación: 
         p.mt-4.pb-5 Antes de iniciar la redacción de un informe es de vital importancia identificar los propósitos por lo cuales se realiza el proyecto y cuáles son los objetivos que se desean lograr con ello. Asímismo, determinar los temas que se deben analizar con total profundidad y plantear una hipótesis.
 
-      .col-lg-4.bg-card-img-1.px-4.py-5.br-rad.text-white
+      .col-lg-4.bg-card-img-1.px-4.py-5.br-rad.text-white(data-aos="flip-down")
         h5.pt-5.text-center Hallar antecedentes:
         p.mt-4.pb-5 en este proceso se indaga sobre qué tipo de información existe y los estudios que han realizado previamente sobre el tema. Esto permite definir un rumbo, ya que facilita orientarse con el trabajo de otros autores, ejemplos de ellos son: información en artículos de revistas indexadas, tesis en repositorios de universidades y trabajos de investigación relacionados con el tema del informe. 
 
 
-      .col-lg-4.bg-card-img-2.px-4.py-5.br-rad.text-white
+      .col-lg-4.bg-card-img-2.px-4.py-5.br-rad.text-white(data-aos="flip-down")
         h5.pt-5.text-center Sigue una metodología: 
         p.mt-4.pb-5 Antes de iniciar la redacción de un informe es de vital importancia identificar los propósitos por lo cuales se realiza el proyecto y cuáles son los objetivos que se desean lograr con ello. Asímismo, determinar los temas que se deben analizar con total profundidad y plantear una hipótesis.     
 
     .row.justify-content-center.align-items-strecth   
-      .col-lg-4.bg-card-img-3.px-4.py-5.br-rad.text-white
+      .col-lg-4.bg-card-img-3.px-4.py-5.br-rad.text-white(data-aos="flip-down")
         h5.pt-5.text-center Sigue una metodología
         p.mt-4.pb-5 Al presentar el informe es necesario que lo divida por temas y establezca un orden. De esta forma se puede presentar sin confusiones. Complemente el reporte utilizando gráficos o diagramas que permitan visualizarlo y entenderlo correctamente.
 
 
-      .col-lg-4.bg-card-img-4.px-4.py-5.br-rad.text-white
+      .col-lg-4.bg-card-img-4.px-4.py-5.br-rad.text-white(data-aos="flip-down")
         h5.pt-5.text-center Sigue una metodología
         p.mt-4.pb-5 Una vez analizado el estudio y la información obtenida es primordial realizar un registro para informar acerca de los resultados hallados en la investigación y redactar las recomendaciones que considere pertinentes para resolverlos.
                     
@@ -158,8 +158,8 @@
       .col-lg-5
         img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img45.svg', alt='')
     .row.justify-content-center.align-items-center
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mt-5
+      .col-lg-10(data-aos="fade-down-left")
+        .titulo-sexto.color-acento-botones.mt-5
           h5 Tabla 1. 
           span Informe de planeación 
         .tabla-a.color-acento-botones.table-br-top.mt-3
@@ -206,7 +206,40 @@
                 td.w Bibliografía 
                 td Textos, revistas, páginas web, entidades y demás documentos consultados.      
 
+    p(data-aos="fade-down-right").mt-5 Dentro de la estructura se debe tener muy claro a la hora de escribir un informe que la información esté organizada y permita una fácil comprensión. A continuación, puede ver un video del informe de gestión empresarial: 
 
+    .row.justify-content-center.align-items-center.mt-5           
+      .col-lg-12(data-aos="fade-left")    
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    separador(data-aos="slide-left")
+
+    #t_3_3.titulo-segundo.color-primario(data-aos="zoom-in-left")
+      h2 3.3 Herramientas para la socialización de un informe
+
+    p(data-aos="fade-down-right") Para la socialización de un informe existen diversas herramientas digitales que facilitan la presentación de la información, entre las más utilizadas se puede encontrar las siguientes:
+
+    TabsA.color-primario.mb-5
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Vizia")
+        h5 Vizia
+        p Permite crear informes en vivo. Además, puede visualizar los datos en tiempo real desde la oficina, escritorio o dispositivo móvil, desde donde quiera.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Tableau")
+        h5 Tableau
+        p Es una herramienta de visualización de datos que permite crear gráficos interactivos, puede ser desde un gráfico de barras hasta mapas globales. Es utilizado en la configuración de un informe para inteligencia del negocio o localización de clientes.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Power BI")
+        h5 Power BI
+        p Es una herramienta de inteligencia empresarial que permite trabajar con datos, importar datos ya sea a través de plataformas con distintas aplicaciones. Es una herramienta muy flexible que permite adaptarse a cualquier tipo de organización o negocio.   
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Agency analytics")
+        h5 Agency analytics
+        p es considerada para realizar tráfico de redes sociales, <i>email marketing</i>, configurar métricas y fuentes de datos, creando una para cada cliente en caso de ser necesario. 
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Síntesis")
+        h5 Síntesis 
+        p La planificación orienta las decisiones, evaluar el progreso y cambiar los enfoques al avanzar.  Los indicadores <b>KPI</b> y la metodología del <b>Cuadro de mando integral</b> permiten hacer seguimiento al progreso, evaluar los resultados y ajustar el plan de acción. Por último, es la consolidación del informe, la cual permite validar las acciones realizadas para una efectiva planeación estratégica. El informe demuestra la gestión, el procedimiento técnico aplicado, la metodología, los resultados y el plan de acción definido, que se socializarán a los directivos y grupos de interés mediante las diversas herramientas de presentación digitales que existen. 
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Mapa conceptual")
+        h5 Mapa conceptual
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img46.svg', alt='')
 
 </template>
 
