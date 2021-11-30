@@ -216,7 +216,7 @@
           .col-lg-5
             p.text-center.bg-title.px-5.py-3 #[b Tendencias en contenido digital]
 
-        ImagenInfografica.color-primario.my-5.py-5
+        ImagenInfografica.color-primario.my-5.py-5.d-none.d-lg-block 
           template(v-slot:imagen)
             figure
               img.img-t.img-a(src='@/assets/ilustraciones/img17.svg', alt=' ')
@@ -262,7 +262,44 @@
                 p.mb-0 La planeación normativa en las organizaciones es uno de los cuatro tipos de planificación que existen. Es la más tradicional y se enfoca en una serie de procedimientos y/o reglamentos que deben seguirse rigurosamente.
                         
               .col-lg-6          
-                img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img21.svg', alt='') 
+                img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img21.svg', alt='')
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Estratégica:
+            p Se diseña a nivel global de la organización, suele ser a largo plazo y se enfoca en el área de dirección.
+
+            p.mb-0 Por ejemplo, Tomás es un gerente de alto nivel de la pizzería Ángelo. Tomás debe utilizar la planeación estratégica para garantizar que se alcancen los objetivos a largo plazo de la organización.
+                    
+          .col-lg-6          
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img18.svg', alt='')                
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Táctica:
+            p Se formula a mediano plazo y se planifica para cada área, departamentos o mandos intermedios.
+            p.mb-0 Brinda un soporte a la planeación estratégica, convirtiéndola en planes concretos para cada área de la empresa. Estos planes se basan en la responsabilidad y funcionalidad de cada departamento para cumplir con su parte del plan estratégico.
+                    
+          .col-lg-6          
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img19.svg', alt='')
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Operativa:
+            p Se planifica para cada mando operativo, área o departamento y se diseña a corto plazo.
+            p.mb-0 Es la planeación que hacen los gerentes de niveles inferiores. Está enfocada en las operaciones y procedimientos específicos que ocurren dentro del nivel base de la empresa. Las tareas habituales de cada departamento se deben planear con un nivel alto de detalle.
+                    
+          .col-lg-6          
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img20.svg', alt='')
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Normativa: 
+            p Se planifica el conjunto de reglas que regulan el funcionamiento interno de la organización. Se formula a mediano y largo plazo.
+            p.mb-0 La planeación normativa en las organizaciones es uno de los cuatro tipos de planificación que existen. Es la más tradicional y se enfoca en una serie de procedimientos y/o reglamentos que deben seguirse rigurosamente.
+                    
+          .col-lg-6          
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img21.svg', alt='')
 
     separador(data-aos="slide-left")
 </template>

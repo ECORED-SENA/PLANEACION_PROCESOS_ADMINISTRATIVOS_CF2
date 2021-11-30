@@ -42,7 +42,7 @@
           .col-lg-5
             p.text-center.bg-title.px-5.py-3 #[b Tipos de Informes]
 
-        ImagenInfografica.color-primario.my-5.py-5
+        ImagenInfografica.color-primario.my-5.py-5.d-none.d-lg-block
           template(v-slot:imagen)
             figure
               img.img-t.img-a(src='@/assets/ilustraciones/img36.svg', alt=' ')
@@ -84,7 +84,40 @@
 
                         
               .col-lg-6          
-                img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img40.svg', alt='')  
+                img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img40.svg', alt='')
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Informe infográfico en tiempo real
+            p.mb-0 Es un informe básico que contiene los resultados, por ejemplo, de una encuesta, actualizados en tiempo real. El informe consta de las estadísticas y gráficos básicos de los datos recolectados hasta el momento, mediante una herramienta de recolección de datos. 
+                    
+          .col-lg-6          
+            img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img37.svg', alt='')
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Informe análisis de tendencia
+            p.mb-0 Hacer un análisis de tendencias para un informe de investigación ofrece la posibilidad de ver datos a lo largo del tiempo. Esto puede ser útil para comparar las puntuaciones de pruebas o exámenes, o para identificar tendencias para una encuesta de satisfacción que se distribuye regularmente.
+                    
+          .col-lg-6          
+            img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img38.svg', alt='')
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Informe comparativo
+            p.mb-0 Este es uno de los ejemplos de informes que  ayudan a comparar los resultados de una encuesta entre los diferentes grupos de encuestados o realizar un seguimiento de una situación en diferentes momentos o condiciones, por ejemplo, ¿cómo responden los hombres frente a las mujeres en una determinada pregunta?
+                    
+          .col-lg-6          
+            img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img39.svg', alt='')
+
+        .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+          .col-lg-6 
+            .h5.mb-2 Informe de texto abierto
+            p.mb-0 Cada proyecto de investigación implica normalmente la recolección de datos de respuestas en múltiples formatos, por ejemplo, las que se generan a través de preguntas abiertas. El informe de texto abierto permite ver las respuestas abiertas, así como los comentarios que generan los participantes de una investigación.
+                    
+          .col-lg-6          
+            img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img40.svg', alt='')                        
+                  
 
     separador(data-aos="slide-left")
 

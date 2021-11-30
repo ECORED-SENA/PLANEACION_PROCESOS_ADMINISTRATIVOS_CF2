@@ -79,7 +79,7 @@
       .col-lg-5
         p.text-center.bg-title.px-5.py-3 #[b Indicadores de gestión] 
 
-    ImagenInfografica.color-acento-botones.mt-5
+    ImagenInfografica.color-acento-botones.mt-5.d-none.d-lg-block
       template(v-slot:imagen)
         figure
           img.img-t.img-a(src='@/assets/ilustraciones/img27.jpg', alt=' ')
@@ -137,7 +137,56 @@
             .h5.mb-2 Indicadores  estratégicos vs. operativos
             p ESe refiere a los KPI teniendo en cuenta el nivel organizacional. Los estratégicos pueden ser el índice de satisfacción del cliente, la cuota de mercado, el margen de los ingresos y la rentabilidad. Dentro de los KPI operativos se puede encontrar la tasa de productos defectuosos, la cantidad de tiempo en gestionar un pedido.
           .col-lg-6          
-            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img43.svg', alt='')                                   
+            img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img43.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.pb-4.d-block.d-lg-none
+      .col-lg-6 
+        .h5.mb-2 Indicadores cualitativos vs. cuantitativos       
+        p.mb-0 Este es uno de los métodos más utilizados para determinar indicadores de gestión. La mayoría de las veces los KPI que miden percepciones y las opiniones son de naturaleza cualitativas, entretanto, el resto son de enfoque cuantitativos; sin embargo, en la práctica los dos se manejan de forma numérica cuando se mide un KPI.                    
+      .col-lg-6          
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img28.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+      .col-lg-6 
+        .h5.mb-2 Indicadores inductores vs históricos
+        p.mb-0 Esta clasificación interpreta las interrelaciones entre los KPI, “inductor o predictivo" hace referencia a los indicadores de gestión que influyen en los resultados futuros. Por otra parte, “histórico o rezagado" se refiere a indicadores de desempeño que se basan en el desempeño que ocurrió en el pasado.                    
+      .col-lg-6          
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img29.svg', alt='')                   
+
+    .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+      .col-lg-6 
+        .h5.mb-2 Indicadores  de eficacia vs de eficiencia
+        p.mb-0 Este tipo de indicadores mide cada proceso desde dos dimensiones. Mientras la eficacia evalúa si los resultados deseados se cumplieron, la eficiencia muestra la medida en que el tiempo, el costo o el esfuerzo que se aplican pertinentemente alcanza los resultados deseados.                  
+      .col-lg-6          
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img30.svg', alt='')  
+
+    .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+      .col-lg-12
+        .h5.mb-2 Indicadores de desempeño  <i>Balanced socrecard</i>
+        p Estos KPI permiten evaluar a la organización desde las 4 perspectivas que componen el modelo de gestión del Balanced scorecard:
+        p Indicadores de la perspectiva financiera: esta clase de indicadores muestran el contexto económico de la empresa, específicamente sus estados financieros. Entre ellos se puede encontrar indicadores de endeudamiento, liquidez, rentabilidad.
+        p Indicadores de la perspectiva del cliente: Los indicadores de esta perspectiva tienen que ver con el capital relacional de la organización. Pueden estar incluidos indicadores de satisfacción de los clientes, de fidelización, de rentabilidad por cliente o de optimización de plazos de entrega.
+        p Indicadores de la perspectiva de procesos: los indicadores de esta perspectiva analizan el rendimiento de los procesos internos relacionados con la organización y la satisfacción de los clientes.
+        p Indicadores de la perspectiva de aprendizaje y crecimiento: este tipo de indicadores se relacionan con la capacidad de innovación en varios procesos de la organización, con la habilidad para mejorar y aprender.                  
+        img.img-t.img-a.mt-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img41.svg', alt='')
+
+    .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+      .col-lg-6 
+        .h5.mb-2 Indicadores de entrada/proceso/salida
+        p Este tipo de KPI permite medir cada etapa de la cadena de valor en relación con los objetivos estratégicos.
+        p Los KPI de entrada: miden los recursos vinculados en el logro de los objetivos. Ejemplos: cantidad empleados de un departamento, presupuesto para implementar un plan de mejora.
+        p Los KPI de proceso: muestran las actividades necesarias para conseguir los resultados esperados. Ejemplos: tiempo para procesar pedidos, tasa de utilización de la maquinaria.
+        p Los KPI de salida: hacen referencia a la cantidad o la calidad de los productos o servicios creados. Ejemplos: cantidad de productos vendidos, cantidad de megabyte generada.
+      .col-lg-6          
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img42.svg', alt='') 
+
+    .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
+      .col-lg-6 
+        .h5.mb-2 Indicadores  estratégicos vs. operativos
+        p ESe refiere a los KPI teniendo en cuenta el nivel organizacional. Los estratégicos pueden ser el índice de satisfacción del cliente, la cuota de mercado, el margen de los ingresos y la rentabilidad. Dentro de los KPI operativos se puede encontrar la tasa de productos defectuosos, la cantidad de tiempo en gestionar un pedido.
+      .col-lg-6          
+        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img43.svg', alt='')  
+                                
 </template>
 
 <script>
