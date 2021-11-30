@@ -1,0 +1,212 @@
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto   
+
+.bg-card-color
+  background: linear-gradient(180deg, rgba(175,88,250,1) 0%, rgba(67,239,212,1) 100%)
+  border: 5px solid white
+  border-radius: 20px 
+    
+.bg-card-color-1
+  background: #43EFD4
+  border: 5px solid white
+  border-radius: 20px   
+
+.yoyo
+  animation-name: yoyo
+  animation-duration: 5.0s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+@keyframes yoyo
+  0%
+    transform: translatey(0px)    
+  50%
+    transform: translatey(-10px)
+  100%
+    transform: translatey(0px)
+
+.slider-bg
+  background-image: url(../assets/ilustraciones/img6.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  transform: translateY(-50%) rotate(1deg) !important
+.slyder-a__tipo-a .slyder-a__btn--atrs      
+  transform: translateY(-50%) rotate(0deg) scaleX(-1) !important
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: 10px !important
+.slyder-a__bullets__item
+  border-radius: 0% !important
+  width: 32px !important
+  height: 5px !important 
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-size: 36px 24px !important
+  background-color: transparent !important
+  border-radius: 0px !important
+  border: 1px solid transparent !important
+.slyder-a__bullets__item--active
+    background-color: #06459A !important
+
+.br-white
+  border: 5px solid white
+
+.bloque-texto-c i
+  color: #43EFD4 !important
+.bloque-texto-c::after
+  background-color: #43EFD4 !important
+.bloque-texto-c.color-primario
+  background-color: lighten(#AF58FA,25% ) !important 
+
+.pasos-a.color-acento-botones .pasos-a__circle div
+  color: white !important
+
+.pasos-a__circle  
+  animation-name: pasosY
+  animation-duration: 5.0s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+@keyframes pasosY
+  0%
+    transform: translatey(0px)    
+  50%
+    transform: translatey(-5px)
+  100%
+    transform: translatey(0px)                  
+
+.bg-img-1
+  background-image: url(../assets/ilustraciones/img16.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.bg-title
+  background-color: #43EFD4
+  border-radius: 20px 0px 20px 0px      
+
+.img-infografica__card
+  width: 600px !important 
+.img-infografica__card--selected  
+.tarjeta.color-acento-contenido
+  background-color: lighten(#3D8EFC,25% )
+  border-radius: 60px 0px 60px 0px
+  border: 1px solid #707070 !important
+.tarjeta.color-acento-contenido *
+  color: #12263F
+
+.bloque-texto-g.color-secundario
+  background: linear-gradient(180deg, rgba(67,239,212,1) 0%, rgba(0,108,255,1) 86%, rgba(0,108,255,1) 100%)   
+
+.card-color-1 
+  background-color: #D9FFF9
+  border-radius: 0px 30px 30px 0px  
+
+.row-top-1
+  margin-top: -12em  
+
+.tarjeta--azul
+  background-color: lighten(#AF58FA,25% ) !important   
+
+.card-color-2
+  background: linear-gradient(270deg, rgba(175,88,250,0.6082633737088585) 0%, rgba(242,227,255,0.12086841572566531) 84%, rgba(255,255,255,1) 100%)
+
+.tarjeta.color-secundario
+  background-color: lighten(#A7FFF1,12%) !important
+
+.bg-card-img  
+  background-image: url(../assets/ilustraciones/img31.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.bg-card-img-1  
+  background-image: url(../assets/ilustraciones/img32.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.bg-card-img-2
+  background-image: url(../assets/ilustraciones/img33.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center       
+
+.bg-card-img-3
+  background-image: url(../assets/ilustraciones/img34.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.bg-card-img-4
+  background-image: url(../assets/ilustraciones/img35.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center  
+    
+.br-rad
+  border-radius: 20px
+  border: 5px solid white   
+
+.br-primario
+  border-radius: 0px 60px 0px 60px  
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 30px
+      height: 30px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #339CE9
+      span 
+        color: white
+        font-weight: bold
+        font-size: 20px 
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 10px
+      margin-right: 0.65rem
+      margin-top: 8px
+      img 
+        width: 10px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 0px  
+
+.cajon.color-primario
+  background-color: lighten(#AF58FA,25%)
+  
+.w
+  width: 30% !important 
+.table-br-top
+  border-top: 5px solid #43EFD4     
