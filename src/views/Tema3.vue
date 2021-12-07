@@ -12,26 +12,26 @@
 
     .row.justify-content-center.align-items-strecth.mt-5      
       .col-lg-4.bg-card-img.px-4.py-5.br-rad.text-white(data-aos="flip-down")
-        h5.pt-5.text-center Describe qué quiere obtener de la investigación: 
-        p.mt-4.pb-5 Antes de iniciar la redacción de un informe es de vital importancia identificar los propósitos por lo cuales se realiza el proyecto y cuáles son los objetivos que se desean lograr con ello. Asímismo, determinar los temas que se deben analizar con total profundidad y plantear una hipótesis.
+        h5.pt-5.text-center Describe qué quiere obtener de la investigación 
+        p.mt-4.pb-5 Antes de iniciar la redacción de un informe es de vital importancia identificar los propósitos por lo cuales se realiza el proyecto y cuáles son los objetivos que se desean lograr con ello. Asimismo, determinar los temas que se deben analizar con total profundidad y plantear una hipótesis.
 
       .col-lg-4.bg-card-img-1.px-4.py-5.br-rad.text-white(data-aos="flip-down")
-        h5.pt-5.text-center Hallar antecedentes:
-        p.mt-4.pb-5 en este proceso se indaga sobre qué tipo de información existe y los estudios que han realizado previamente sobre el tema. Esto permite definir un rumbo, ya que facilita orientarse con el trabajo de otros autores, ejemplos de ellos son: información en artículos de revistas indexadas, tesis en repositorios de universidades y trabajos de investigación relacionados con el tema del informe. 
+        h5.pt-5.text-center Hallar antecedentes
+        p.mt-4.pb-5 En este proceso se indaga sobre qué tipo de información existe y los estudios que han realizado previamente sobre el tema. Esto permite definir un rumbo, ya que facilita orientarse con el trabajo de otros autores, ejemplos de ellos son: información en artículos de revistas indexadas, tesis en repositorios de universidades y trabajos de investigación relacionados con el tema del informe. 
 
 
       .col-lg-4.bg-card-img-2.px-4.py-5.br-rad.text-white(data-aos="flip-down")
-        h5.pt-5.text-center Sigue una metodología: 
-        p.mt-4.pb-5 Antes de iniciar la redacción de un informe es de vital importancia identificar los propósitos por lo cuales se realiza el proyecto y cuáles son los objetivos que se desean lograr con ello. Asímismo, determinar los temas que se deben analizar con total profundidad y plantear una hipótesis.     
+        h5.pt-5.text-center Sigue una metodología 
+        p.mt-4.pb-5 Consiste en describir cuál es el tipo de investigación que está realizando, cuáles son los medios por los que está obteniendo información, el método de recolección que utilizará, el tamaño de la muestra y la ubicación geográfica.     
 
     .row.justify-content-center.align-items-strecth   
       .col-lg-4.bg-card-img-3.px-4.py-5.br-rad.text-white(data-aos="flip-down")
-        h5.pt-5.text-center Sigue una metodología
+        h5.pt-5.text-center Redactar la información
         p.mt-4.pb-5 Al presentar el informe es necesario que lo divida por temas y establezca un orden. De esta forma se puede presentar sin confusiones. Complemente el reporte utilizando gráficos o diagramas que permitan visualizarlo y entenderlo correctamente.
 
 
       .col-lg-4.bg-card-img-4.px-4.py-5.br-rad.text-white(data-aos="flip-down")
-        h5.pt-5.text-center Sigue una metodología
+        h5.pt-5.text-center Redactar la conclusión
         p.mt-4.pb-5 Una vez analizado el estudio y la información obtenida es primordial realizar un registro para informar acerca de los resultados hallados en la investigación y redactar las recomendaciones que considere pertinentes para resolverlos.
                     
     p(data-aos="fade-down-right").mt-5 Con base en estas características es posible distinguir los tipos de informes a estudiar:
@@ -200,44 +200,44 @@
             caption Nota. Este informe debe cumplir con la séptima edición de las Normas APA.
             tbody
               tr
-                td.w Portada
+                td.w #[b Portada]
                 td Nombre de la empresa, nombre de los autores, ciudad y año de elaboración.        
               tr
-                td.w Tabla de contenido 
+                td.w #[b Tabla de contenido ]
                 td Se relacionan los títulos que contiene el informe.
               tr
-                td.w Introducción
+                td.w #[b Introducción]
                 td Se hace una descripción breve del tema desarrollado en el informe.
               tr
-                td.w Reseña de la empresa
+                td.w #[b Reseña de la empresa]
                 td Reseña histórica de la empresa que incluye la trayectoria.
               tr
-                td.w Objetivos 
+                td.w #[b Objetivos ]
                 td Se define cuál es el propósito que se persigue con el informe. 
               tr
-                td.w Diagnóstico y análisis organizacional
+                td.w #[b Diagnóstico y análisis organizacional]
                 td En este espacio se realiza la descripción de la metodología a aplicar para realizar el diagnóstico y análisis empresarial.<br>-	Resultados de la información recolectada con instrumentos aplicados.    <br>-	Matrices o diagramas de diagnóstico.<br>-	Matrices de análisis.
 
               tr
-                td.w Propuesta de mejora 
+                td.w #[b Propuesta de mejora ]
                 td En este espacio se describe la propuesta de mejora según los resultados del diagnóstico y análisis empresarial.<br>-	Justificación de la propuesta.<br>-	Formulación de las estrategias.
 
               tr
-                td.w Plan de acción
+                td.w #[b Plan de acción]
                 td En este espacio se formula el plan de acción.<br>-	Definir los objetivos del plan.<br>-	Detallar las estrategias.<br>-	Plantear las tareas.<br>-	Elaborar el cronograma.<br>-	Designar responsables.
               tr
-                td.w Seguimiento
+                td.w #[b Seguimiento]
                 td Este espacio debe contener el modelo gestión empresarial, que integrará las diferentes áreas funcionales de la empresa y su relación con el entorno. Asimismo, las herramientas de medición.<br>-	<i>Balanced scorecard</i> o Cuadro de mando integral.<br>-	Indicadores KPI.
 
               tr
-                td.w Conclusiones
+                td.w #[b Conclusiones]
                 td En este espacio se describe de manera general ¿qué se hizo?, ¿cómo se hizo?, ¿para qué se hizo?, el resultado como tal y las recomendaciones que se consideren pertinentes.  
               tr
-                td.w Anexos
+                td.w #[b Anexos]
                 td Toda la información que se considere pertinente y que se referenció en el proceso.
               tr
-                td.w Bibliografía 
-                td Textos, revistas, páginas web, entidades y demás documentos consultados.      
+                td.w #[b Bibliografía ]
+                td Textos, revistas, páginas <i>web</i>, entidades y demás documentos consultados.      
 
     p(data-aos="fade-down-right").mt-5 Dentro de la estructura se debe tener muy claro a la hora de escribir un informe que la información esté organizada y permita una fácil comprensión. A continuación, puede ver un video del informe de gestión empresarial: 
 
@@ -245,7 +245,7 @@
       .col-lg-12(data-aos="fade-left")    
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/cQePqBGsnCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador(data-aos="slide-left")
 
@@ -267,12 +267,6 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Agency analytics")
         h5 Agency analytics
         p es considerada para realizar tráfico de redes sociales, <i>email marketing</i>, configurar métricas y fuentes de datos, creando una para cada cliente en caso de ser necesario. 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Síntesis")
-        h5 Síntesis 
-        p La planificación orienta las decisiones, evaluar el progreso y cambiar los enfoques al avanzar.  Los indicadores <b>KPI</b> y la metodología del <b>Cuadro de mando integral</b> permiten hacer seguimiento al progreso, evaluar los resultados y ajustar el plan de acción. Por último, es la consolidación del informe, la cual permite validar las acciones realizadas para una efectiva planeación estratégica. El informe demuestra la gestión, el procedimiento técnico aplicado, la metodología, los resultados y el plan de acción definido, que se socializarán a los directivos y grupos de interés mediante las diversas herramientas de presentación digitales que existen. 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Mapa conceptual")
-        h5 Mapa conceptual
-        img.img-t.img-a.my-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img46.svg', alt='')
 
 </template>
 

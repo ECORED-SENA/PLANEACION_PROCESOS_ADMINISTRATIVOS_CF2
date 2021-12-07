@@ -26,11 +26,11 @@
 
     .row.justify-content-center.align-items-strecth      
       .col-lg-3.bg-card-color-1.px-4.py-5.d-none.d-lg-block(data-aos="fade-down-left") 
-        p.mb-0 Herramienta de código abierto que se usa para realizar pruebas de interfaz en aplicaciones web. 
+        p.mb-0 Sigue siendo el beneficio más importante, dado que el proceso de planificación estratégica hace una contribución significativa más que la decisión misma.
       .col-lg-3.bg-card-color-1.px-4.py-5.d-none.d-lg-block(data-aos="fade-down-left")  
         p.mb-0 La planificación estratégica también ayuda a los gerentes y a los empleados a mostrar compromiso con los objetivos de la organización. Es porque saben lo que está haciendo la compañía y la razón detrás de esto.
       .col-lg-3.bg-card-color-1.px-4.py-5.d-none.d-lg-block(data-aos="fade-down-right")  
-        p.mb-0 ya que los empleados pueden comprender la relación entre su desempeño y la compensación. Como resultado, tanto los empleados como los gerentes se vuelven innovadores y creativos, lo que fomenta aún más el crecimiento de la empresa. 
+        p.mb-0 Ya que los empleados pueden comprender la relación entre su desempeño y la compensación. Como resultado, tanto los empleados como los gerentes se vuelven innovadores y creativos, lo que fomenta aún más el crecimiento de la empresa. 
       .col-lg-3.bg-card-color-1.px-4.py-5.d-none.d-lg-block(data-aos="fade-down-right")  
         p.mb-0 El aumento del diálogo y la comunicación interna en todas las etapas del proceso fortalece el sentido de efectividad e iniciativas del empleado. (Escobar, 2021)   
 
@@ -39,7 +39,7 @@
       .col-lg-3.bg-card-color.p-3.d-block.d-lg-none(data-aos="fade-down-right")  
         img.img-t.img-a.yoyo(data-aos="zoom-in")(src='@/assets/ilustraciones/img1.svg', alt='')
         h5.mt-4.text-center Ayuda a formular mejores estrategias, utilizando un enfoque lógico y sistemático.
-        p.mb-0.mt-4 Herramienta de código abierto que se usa para realizar pruebas de interfaz en aplicaciones web.  
+        p.mb-0.mt-4 Sigue siendo el beneficio más importante, dado que el proceso de planificación estratégica hace una contribución significativa más que la decisión misma. 
       .col-lg-3.bg-card-color.p-3.d-block.d-lg-none(data-aos="fade-down-right")  
         img.img-t.img-a.yoyo(data-aos="zoom-in")(src='@/assets/ilustraciones/img2.svg', alt='')
         h5.mt-4.text-center Mejora la comunicación entre gerentes y empleados
@@ -47,7 +47,7 @@
       .col-lg-3.bg-card-color.p-3.d-block.d-lg-none(data-aos="fade-down-right")  
         img.img-t.img-a.yoyo(data-aos="zoom-in")(src='@/assets/ilustraciones/img3.svg', alt='')
         h5.mt-4.text-center Permite que metas y objetivos de la organización sean reales
-        p.mb-0.mt-4 ya que los empleados pueden comprender la relación entre su desempeño y la compensación. Como resultado, tanto los empleados como los gerentes se vuelven innovadores y creativos, lo que fomenta aún más el crecimiento de la empresa. 
+        p.mb-0.mt-4 Ya que los empleados pueden comprender la relación entre su desempeño y la compensación. Como resultado, tanto los empleados como los gerentes se vuelven innovadores y creativos, lo que fomenta aún más el crecimiento de la empresa. 
       .col-lg-3.bg-card-color.p-3.d-block.d-lg-none(data-aos="fade-down-right")  
         img.img-t.img-a.yoyo(data-aos="zoom-in")(src='@/assets/ilustraciones/img4.svg', alt='')
         h5.mt-4.text-center Empodera a las personas que trabajan en la organización
@@ -77,7 +77,7 @@
           img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img7.png', alt='')
 
         .col-lg-5
-          h5 Principio de flexibilidad.  
+          h5 Principio de flexibilidad  
           p Hace referencia a que con base en las necesidades operacionales y gerenciales un sistema debería ser capaz de adaptarse a los cambios en la organización, por ello, este principio busca la flexibilidad en los planes que permitan adaptarse a las contingencias después de que se hayan formulado. 
 
           p Ejemplo: cambio momentáneo en la dirección de un grupo, debido a que la líder está cumpliendo una baja por maternidad.    
@@ -90,7 +90,7 @@
           h5 Principio de universalidad 
           p Para diseñar el plan la planeación debe tener una serie de elementos requeridos como materia prima, personal, tiempo, presupuesto, entre otros, con el fin de que todo pueda unificarse, ya que todos estos elementos influyen en el proceso. De tal manera que tan pronto termina la planeación se ponga en marcha de inmediato.
           
-          p Ejemplo. Se requiere de los recursos humanos (contables, estadísticos) y técnicos (facturas, Excel, etc.) para ponerlo en marcha un proyecto de contabilidad de un cliente. 
+          p Ejemplo. Se requiere de los recursos humanos (contables, estadísticos) y técnicos (facturas, Excel, etc.) para poner en marcha un proyecto de contabilidad de un cliente. 
 
       .row.justify-content-center.align-items-center
         .col-lg-5
@@ -124,7 +124,7 @@
 
           p En una organización debe haber solo un plan para cada función. Estos planes deben estar conectados e integrados, por lo que al final debe haber solo un plan principal.
 
-          p Ejemplo: los departamentos de marketing tienen una idea sobre cómo gestionar los recursos muy diferente a los del departamento de finanzas. Si no llegan a un acuerdo, las opciones de éxito se verán muy reducidas.
+          p Ejemplo: los departamentos de <i>marketing</i> tienen una idea sobre cómo gestionar los recursos muy diferente a los del departamento de finanzas. Si no llegan a un acuerdo, las opciones de éxito se verán muy reducidas.
 
       .row.justify-content-center.align-items-center
         .col-lg-5
@@ -141,7 +141,7 @@
           img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img13.png', alt='')
 
         .col-lg-5
-          h5 Principio de compromiso. 
+          h5 Principio de compromiso 
           p Para el éxito en la ejecución del plan se requiere compromiso en la disponibilidad de recursos y para el cumplimiento de dichos compromisos se requiere el factor tiempo, el cual debe determinarse si es necesario para el logro de los objetivos.
 
           p Ejemplo: si se planea extender el edificio de una fábrica y toma seis meses construirlo, la empresa debe estar preparada para no obtener un beneficio en sus ingresos de esta rama por un periodo de al menos seis meses.
@@ -161,7 +161,7 @@
           img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img15.png', alt='')
 
         .col-lg-5
-          h5 Principio de inherencia. 
+          h5 Principio de inherencia 
           p El proceso de planificar metas es de naturaleza inherente y es un aspecto implícito en las organizaciones. Por tal motivo, quienes han sido asignados para analizar e identificar la mejor forma de alcanzar los objetivos deseados deben actuar bajo este principio. Lo cual debe aplicarse en su debido momento, simultáneo a la definición de objetivos inmediatos.
 
           p Ejemplo: si se encarga un proyecto sobre cómo administrar los recursos de una empresa con inestabilidad financiera se debería fijar unas metas, siempre con la prevención de tener un plan B por si el A fracasa. 
@@ -170,15 +170,22 @@
 
     .row.justify-content-center.align-items-stretch
       .col-lg-6.bloque-texto-c.color-primario.p-4.br-white.mt-4(data-aos="zoom-in-right")
-        i.fas.fa-quote-right
+        i.fas.fa-quote-left
         h2.mb-2 “La planificación lleva a un resultado eficiente; esta permite encontrar soluciones reales a los problemas enfrentados”
         span (Cajal, 2020).    
       .col-lg-6.bloque-texto-c.color-primario.p-4.br-white.mt-4(data-aos="zoom-in-left")
-        i.fas.fa-quote-right
+        i.fas.fa-quote-left
         h2.mb-2 “Asimismo, la planeación se distingue del resto de las fases del proceso administrativo por características propias de su accionar”  
         span (Escobar, 2021).
 
     h4.mt-5(data-aos="zoom-in-left") Características de la planificación estratégica:
+
+    .row.justify-content-center.align-items-center.mt-5           
+      .col-lg-12(data-aos="fade-left")    
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/1yAOUdaaYxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10(data-aos="zoom-in")
         PasosA.color-acento-botones(tipo="n")
@@ -250,6 +257,7 @@
                 .h5.mb-2 Operativa:
                 p Se planifica para cada mando operativo, área o departamento y se diseña a corto plazo.
                 p.mb-0 Es la planeación que hacen los gerentes de niveles inferiores. Está enfocada en las operaciones y procedimientos específicos que ocurren dentro del nivel base de la empresa. Las tareas habituales de cada departamento se deben planear con un nivel alto de detalle.
+
                         
               .col-lg-6          
                 img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img20.svg', alt='') 

@@ -19,7 +19,7 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10.bloque-texto-c.color-primario.p-4.br-white(data-aos="zoom-in-right")
-        i.fas.fa-quote-right
+        i.fas.fa-quote-left
         h2.mb-2 “El BSC se basa en un correcto equilibrio y alineación entre los elementos de la estrategia global y los elementos operativos de la misma. Los elementos globales son: la misión (nuestro propósito), la visión (a qué aspiramos), los valores centrales (en qué creemos), las perspectivas y los objetivos”
         span (Roncancio, 2018).
 
@@ -40,25 +40,25 @@
         p Según el método estratégico del <i>Balanced scorecard</i> el concepto de estrategia de una organización debe realizarse de acuerdo con cuatro perspectivas, cada una permite adicionar los objetivos estratégicos asociados.        
 
     AcordionA.mt-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row.justify-content-center.align-items-center(titulo="Perspectiva financiera. ")
+      .row.justify-content-center.align-items-center(titulo="Perspectiva financiera")
         .col-lg-8
           p Para la mayoría de las organizaciones con fines de lucro el dinero es una prioridad. Por lo tanto, para estas organizaciones la perspectiva más importante tiene que ver con los objetivos financieros. Esencialmente, cualquier objetivo clave relacionado con la salud financiera y la rentabilidad de la organización puede incluirse en esta perspectiva. Los ingresos y las ganancias son objetivos obvios que la mayoría de las organizaciones enumeran en esta perspectiva. Otros objetivos financieros podrían incluir el generar ahorro de costos y eficiencia, mejorar el margen de rentabilidad o aumentar las fuentes de ingresos. 
         .col-lg-4
           img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img24.svg', alt='') 
 
-      .row.justify-content-center.align-items-center(titulo="Perspectiva del cliente. ")
+      .row.justify-content-center.align-items-center(titulo="Perspectiva del cliente")
         .col-lg-12
           p Esta perspectiva se centra en los objetivos estratégicos que están relacionados con los clientes y el mercado. En otras palabras, para lograr sus objetivos financieros ¿exactamente qué necesita lograr en términos de sus clientes y mercado(s)?
 
           p Incluidos en esta perspectiva puede encontrar objetivos estratégicos para el servicio al cliente y satisfacción, participación en el mercado y reconocimiento de marca.
 
-      .row.justify-content-center.align-items-center(titulo="Perspectiva de los procesos internos. ")
+      .row.justify-content-center.align-items-center(titulo="Perspectiva de los procesos internos")
         .col-lg-8
-          p ¿Qué procesos necesita implementar para cumplir sus objetivos estratégicos financieros y relacionados con los clientes? Esa es la pregunta que esta perspectiva pretende responder, aquí debe establecer metas y objetivos operativos internos o en otras palabras, definir qué procesos que requiere actualmente la organización y qué debe hacer para mejorar su desempeño (Roncancio, 2018).
+          p ¿Qué procesos necesita implementar para cumplir sus objetivos estratégicos financieros y relacionados con los clientes? Esa es la pregunta que esta perspectiva pretende responder, aquí debe establecer metas y objetivos operativos internos o en otras palabras, definir qué procesos requiere actualmente la organización y qué debe hacer para mejorar su desempeño (Roncancio, 2018).
         .col-lg-4
           img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img25.svg', alt='') 
 
-      .row.justify-content-center.align-items-center(titulo="Perspectiva de aprendizaje y crecimiento. ")
+      .row.justify-content-center.align-items-center(titulo="Perspectiva de aprendizaje y crecimiento")
         .col-lg-12
           p Está compuesta por el capital organizacional (liderazgo, cultura, trabajo en equipo, alineación de empleados y gestión del conocimiento), capital humano (talento, habilidades y conocimiento) y el capital de información (sistemas de información, bases de datos e infraestructura y redes tecnológicas).
             
@@ -71,9 +71,9 @@
       .col-lg-6
         img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img26.svg', alt='')     
       .col-lg-6.card-color-2.p-4.my-3
-        p(data-aos="fade-down-right") El indicador de desempeño o indicador de gestión KPI (Key Performance Indicator), también llamado indicador clave de actuación, permite medir si una organización está alcanzando sus objetivos estratégicos y metas.
+        p(data-aos="fade-down-right") El indicador de desempeño o indicador de gestión KPI (<i>Key Performance Indicator</i>), también llamado indicador clave de actuación, permite medir si una organización está alcanzando sus objetivos estratégicos y metas.
         p(data-aos="fade-down-right") Las empresas emplean indicadores de gestión o desempeño en varios niveles para evaluar su éxito al alcanzar las metas propuestas. Los indicadores de gestión de nivel alto permiten a la empresa enfocarse en el desempeño general, por otro lado, los KPI de nivel bajo permiten enfocar los procesos o los empleados en cada área o departamento. 
-        p.mb-0(data-aos="fade-down-right") A continuación, se presentan los tipos de indicadores de gestión del Balanced scorecard que existen:
+        p.mb-0(data-aos="fade-down-right") A continuación, se presentan los tipos de indicadores de gestión del <i>Balanced scorecard</i> que existen:
 
     .row.justify-content-center.align-items-center.my-5
       .col-lg-5
@@ -105,17 +105,17 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6 
             .h5.mb-2 Indicadores  de eficacia vs de eficiencia
-            p.mb-0 Este tipo de indicadores mide cada proceso desde dos dimensiones. Mientras la eficacia evalúa si los resultados deseados se cumplieron, la eficiencia muestra la medida en que el tiempo, el costo o el esfuerzo que se aplican pertinentemente alcanza los resultados deseados.                  
+            p.mb-0 Este tipo de indicadores mide cada proceso desde dos dimensiones. Mientras la eficacia evalúa si los resultados deseados se cumplieron, la eficiencia muestra la medida en que el tiempo, el costo o el esfuerzo que se aplica pertinentemente alcanza los resultados deseados.                  
           .col-lg-6          
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img30.svg', alt='')    
 
       .tarjeta.color-secundario.p-3(x="41.5%" y="35.5%" numero="")
         .row.justify-content-center.align-items-center.p-4
           .col-lg-12
-            .h5.mb-2 Indicadores de desempeño  <i>Balanced socrecard</i>
-            p Estos KPI permiten evaluar a la organización desde las 4 perspectivas que componen el modelo de gestión del Balanced scorecard:
+            .h5.mb-2 Indicadores de desempeño  <i>Balanced scorecard</i>
+            p Estos KPI permiten evaluar a la organización desde las 4 perspectivas que componen el modelo de gestión del <i>Balanced scorecard</i>:
             p Indicadores de la perspectiva financiera: esta clase de indicadores muestran el contexto económico de la empresa, específicamente sus estados financieros. Entre ellos se puede encontrar indicadores de endeudamiento, liquidez, rentabilidad.
-            p Indicadores de la perspectiva del cliente: Los indicadores de esta perspectiva tienen que ver con el capital relacional de la organización. Pueden estar incluidos indicadores de satisfacción de los clientes, de fidelización, de rentabilidad por cliente o de optimización de plazos de entrega.
+            p Indicadores de la perspectiva del cliente: los indicadores de esta perspectiva tienen que ver con el capital relacional de la organización. Pueden estar incluidos indicadores de satisfacción de los clientes, de fidelización, de rentabilidad por cliente o de optimización de plazos de entrega.
             p Indicadores de la perspectiva de procesos: los indicadores de esta perspectiva analizan el rendimiento de los procesos internos relacionados con la organización y la satisfacción de los clientes.
             p Indicadores de la perspectiva de aprendizaje y crecimiento: este tipo de indicadores se relacionan con la capacidad de innovación en varios procesos de la organización, con la habilidad para mejorar y aprender.                  
             img.img-t.img-a.mt-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img41.svg', alt='') 
@@ -162,10 +162,10 @@
 
     .row.justify-content-center.align-items-center.p-4.d-block.d-lg-none
       .col-lg-12
-        .h5.mb-2 Indicadores de desempeño  <i>Balanced socrecard</i>
-        p Estos KPI permiten evaluar a la organización desde las 4 perspectivas que componen el modelo de gestión del Balanced scorecard:
+        .h5.mb-2 Indicadores de desempeño  <i>Balanced scorecard</i>
+        p Estos KPI permiten evaluar a la organización desde las 4 perspectivas que componen el modelo de gestión del <i>Balanced scorecard</i>:
         p Indicadores de la perspectiva financiera: esta clase de indicadores muestran el contexto económico de la empresa, específicamente sus estados financieros. Entre ellos se puede encontrar indicadores de endeudamiento, liquidez, rentabilidad.
-        p Indicadores de la perspectiva del cliente: Los indicadores de esta perspectiva tienen que ver con el capital relacional de la organización. Pueden estar incluidos indicadores de satisfacción de los clientes, de fidelización, de rentabilidad por cliente o de optimización de plazos de entrega.
+        p Indicadores de la perspectiva del cliente: los indicadores de esta perspectiva tienen que ver con el capital relacional de la organización. Pueden estar incluidos indicadores de satisfacción de los clientes, de fidelización, de rentabilidad por cliente o de optimización de plazos de entrega.
         p Indicadores de la perspectiva de procesos: los indicadores de esta perspectiva analizan el rendimiento de los procesos internos relacionados con la organización y la satisfacción de los clientes.
         p Indicadores de la perspectiva de aprendizaje y crecimiento: este tipo de indicadores se relacionan con la capacidad de innovación en varios procesos de la organización, con la habilidad para mejorar y aprender.                  
         img.img-t.img-a.mt-3(data-aos="zoom-in")(src='@/assets/ilustraciones/img41.svg', alt='')

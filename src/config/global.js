@@ -91,6 +91,11 @@ export default {
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Sintesis',
+        nombreRuta: 'sintesis',
+      },
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
@@ -125,76 +130,55 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Cajal, A. (2020). Lifeder.com. ',
+      referencia:
+        'Cajal, A. (2020). 9 Principios de la Planeación Administrativa. ',
       link: 'https://www.lifeder.com/principios-planeacion-administrativa/',
     },
     {
-      referencia: 'Contreras, S. (2021). Lifeder.com. ',
+      referencia: 'Contreras, S. (2021). Planeación normativa. ',
       link: 'https://www.lifeder.com/planeacion-normativa/',
     },
     {
-      referencia: 'Corvo, H. (2020). Lifeder.com. ',
-      link: 'https://www.lifeder.com/planeacion-administrativa-empresa/',
+      referencia:
+        'Corvo, H. (2020). Planeación administrativa: principios, tipos, elementos, etapas. ',
+      link: 'https://www.lifeder.com/planeacion-administrativa-empresa',
     },
     {
-      referencia: 'Escobar, I. (2021). Questionpro.com. ',
+      referencia:
+        'Escobar, I. (2021). Planificación estratégica: ¿Qué es y para qué sirve? ',
       link: 'https://www.questionpro.com/blog/es/planificacion-estrategica/',
     },
     {
-      referencia: 'Estévez, A. (2019). Significado.com. ',
+      referencia:
+        'Estévez, A. (2019). Significado de Desempeño. Definición, Laboral, Escolar, Factores e Influencias.  ',
       link: 'https://significado.com/desempeno/',
     },
     {
-      referencia: 'GCF global. (2021). edu.gcfglobal.org. ',
+      referencia: 'GCF global. (2021). ¿Qué son las aplicaciones?  ',
       link:
         'https://edu.gcfglobal.org/es/cultura-tecnologica/que-son-las-aplicaciones-o-programas/1/',
     },
     {
-      referencia: 'Gestionpro. (2021). Questionpro.com. ',
+      referencia: 'Gestionpro. (2021). Ejemplos de informes de investigación. ',
       link: 'https://www.questionpro.com/es/tour/ejemplos-de-informes.html',
     },
     {
-      referencia: 'ICONTEC. (2009). Icontec.org. ',
+      referencia:
+        'ICONTEC. (2009). PB 60 - GTC-185 Documentación organizacional. ',
       link:
         'https://tienda.icontec.org/gtc-185-documentacion-organizacional.html',
     },
     {
-      referencia: 'Roncancio, G. (2018). gestion.pensemos.com. ',
+      referencia:
+        'Roncancio, G. (2018). ¿Qué es el Balanced Scorecard o Cuadro de Mando Integral? Un resumen. ',
       link:
         'https://gestion.pensemos.com/que-es-el-balanced-scorecard-o-cuadro-de-mando-integral-un-resumen',
     },
     {
-      referencia: 'Roncancio, G. (2018). gestion.pensemos.com. ',
+      referencia:
+        'Roncancio, G. (2018). ¿Qué tipos de indicadores de gestión del Balanced Scorecard existen? ',
       link:
         'https://gestion.pensemos.com/que-tipos-de-indicadores-de-gestion-del-balanced-scorecard-existen',
-    },
-    {
-      referencia: 'The free dictionary. (2021). es.thefreedictionary.com. ',
-      link: 'https://es.thefreedictionary.com/esquematizado',
-    },
-    {
-      referencia: 'Wikipedia . (2021). es.wikipedia.org. ',
-      link: 'https://es.wikipedia.org/wiki/Perspectiva',
-    },
-    {
-      referencia: 'Wikipedia . (2021). es.wikipedia.org. ',
-      link: 'https://es.wikipedia.org/wiki/Prezi',
-    },
-    {
-      referencia: 'Wikipedia . (2021). es.wikipedia.org. ',
-      link: 'https://es.wikipedia.org/wiki/Canva',
-    },
-    {
-      referencia: 'Wikipedia . (2021). es.wikipedia.org. ',
-      link: 'https://es.wikipedia.org/wiki/Microsoft_PowerPoint',
-    },
-    {
-      referencia: 'Wikipedia . (2021). es.wikipedia.org. ',
-      link: 'https://es.wikipedia.org/wiki/Gesti%C3%B3n',
-    },
-    {
-      referencia: 'Wikipedia . (2021). es.wikipedia.org. ',
-      link: 'https://es.wikipedia.org/wiki/Enfoque',
     },
   ],
   glosario: [
@@ -216,7 +200,7 @@ export default {
     {
       termino: 'KPI',
       significado:
-        '<i>Key performance indicator</i>, también llamado indicador clave de actuación, permite medir si una organización está alcanzando sus objetivos estratégicos y metas.',
+        '<i>Key Performance Indicator</i>, también llamado indicador clave de actuación, permite medir si una organización está alcanzando sus objetivos estratégicos y metas.',
     },
     {
       termino: 'Planificación normativa',
@@ -257,7 +241,7 @@ export default {
     },
     {
       texto:
-        'Méndez, J. (2018). KPI (Key performance indicator). Cómo hacer uno - (Indicadores clave de desempeño) [video]. YouTube. ',
+        'Méndez, J. (2018). KPI (<i>Key Performance Indicator</i>). Cómo hacer uno - (Indicadores clave de desempeño) [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Vf_z2e1tY48',
     },
@@ -326,6 +310,53 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ricardo Vásquez Arroyave',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Villamizar Lizcano',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'Edward Leonardo Pico Cabra',
         cargo: 'Desarrollo front-end',
         centro:
@@ -338,7 +369,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
