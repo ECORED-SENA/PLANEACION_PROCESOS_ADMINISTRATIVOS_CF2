@@ -164,12 +164,6 @@ export default {
     },
     {
       referencia:
-        'ICONTEC. (2009). PB 60 - GTC-185 Documentación organizacional. ',
-      link:
-        'https://tienda.icontec.org/gtc-185-documentacion-organizacional.html',
-    },
-    {
-      referencia:
         'Roncancio, G. (2018). ¿Qué es el Balanced Scorecard o Cuadro de Mando Integral? Un resumen. ',
       link:
         'https://gestion.pensemos.com/que-es-el-balanced-scorecard-o-cuadro-de-mando-integral-un-resumen',
@@ -377,7 +371,7 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Milady Tatiana Villamil Castellanos',
+        nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

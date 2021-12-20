@@ -266,7 +266,7 @@
         p Es una herramienta de inteligencia empresarial que permite trabajar con datos, importar datos ya sea a través de plataformas con distintas aplicaciones. Es una herramienta muy flexible que permite adaptarse a cualquier tipo de organización o negocio.   
       .tarjeta.color-acento-botones--borde.p-4(titulo="Agency analytics")
         h5 Agency analytics
-        p es considerada para realizar tráfico de redes sociales, <i>email marketing</i>, configurar métricas y fuentes de datos, creando una para cada cliente en caso de ser necesario. 
+        p Es considerada para realizar tráfico de redes sociales, <i>email marketing</i>, configurar métricas y fuentes de datos, creando una para cada cliente en caso de ser necesario. 
 
 </template>
 

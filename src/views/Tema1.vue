@@ -90,7 +90,7 @@
           h5 Principio de universalidad 
           p Para diseñar el plan la planeación debe tener una serie de elementos requeridos como materia prima, personal, tiempo, presupuesto, entre otros, con el fin de que todo pueda unificarse, ya que todos estos elementos influyen en el proceso. De tal manera que tan pronto termina la planeación se ponga en marcha de inmediato.
           
-          p Ejemplo. Se requiere de los recursos humanos (contables, estadísticos) y técnicos (facturas, Excel, etc.) para poner en marcha un proyecto de contabilidad de un cliente. 
+          p Ejemplo: Se requiere de los recursos humanos (contables, estadísticos) y técnicos (facturas, Excel, etc.) para poner en marcha un proyecto de contabilidad de un cliente. 
 
       .row.justify-content-center.align-items-center
         .col-lg-5

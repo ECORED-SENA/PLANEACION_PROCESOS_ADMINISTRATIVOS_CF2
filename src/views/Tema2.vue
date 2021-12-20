@@ -135,7 +135,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6 
             .h5.mb-2 Indicadores  estratégicos vs. operativos
-            p ESe refiere a los KPI teniendo en cuenta el nivel organizacional. Los estratégicos pueden ser el índice de satisfacción del cliente, la cuota de mercado, el margen de los ingresos y la rentabilidad. Dentro de los KPI operativos se puede encontrar la tasa de productos defectuosos, la cantidad de tiempo en gestionar un pedido.
+            p Se refiere a los KPI teniendo en cuenta el nivel organizacional. Los estratégicos pueden ser el índice de satisfacción del cliente, la cuota de mercado, el margen de los ingresos y la rentabilidad. Dentro de los KPI operativos se puede encontrar la tasa de productos defectuosos, la cantidad de tiempo en gestionar un pedido.
           .col-lg-6          
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/ilustraciones/img43.svg', alt='') 
 

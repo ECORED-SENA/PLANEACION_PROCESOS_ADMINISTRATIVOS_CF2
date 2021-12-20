@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="fade-left")
           h2 Tipos de planeación y tipos de KPI
-        p.mb-4(data-aos="zoom-in") La actividad planteada consiste en relacionar los términos de los tipos de planeación con las definiciones. Es recomendable arrastrar y soltar cada término y soltarlo en el cuadro blanco frente a la definición que corresponda.
+        p.mb-4(data-aos="zoom-in") La actividad planteada consiste en relacionar los términos de los tipos de planeación con las definiciones. Es recomendable arrastrar y soltar cada término en el cuadro blanco frente a la definición que corresponda.
         .tarjeta.tarjeta--azul.p-3(data-aos="fade-left")
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
